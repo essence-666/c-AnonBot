@@ -18,7 +18,7 @@ internal class Program
     {   
         
 
-        var botClient = new TelegramBotClient("5468277697:AAFs60Sej6AagSZwKIrRRUdUkilh2PANhy4");
+        var botClient = new TelegramBotClient("{your token}");
 
         botClient.StartReceiving(Update, Error);
         Console.ReadLine();
